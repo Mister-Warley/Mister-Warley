@@ -1,4 +1,3 @@
-
 public class Empregado {
     //atributos
     private String primeiroNome;
@@ -54,8 +53,8 @@ public class Empregado {
 
     public static void main(String[] args) {
     
-        Empregado empregado1 = new Empregado("João", "Silva", 3000);
-        Empregado empregado2 = new Empregado("Maria", "Santos", 4000);
+        Empregado empregado1 = new Empregado("Warley01", "Warley02", 3000);
+        Empregado empregado2 = new Empregado("Warley10", "Warley20", 4000);
 
 
         System.out.println("Salário anual de " + empregado1.getPrimeiroNome() + ": " + empregado1.calcularSalarioAnual());
@@ -145,8 +144,8 @@ public class Aluno {
 
     // testar a classe
     public static void main(String[] args) {
-        Aluno aluno1 = new Aluno("João", 17, 70, 1.75);
-        Aluno aluno2 = new Aluno("Maria", 20, 60, 1.60);
+        Aluno aluno1 = new Aluno("Warley01", 17, 70, 1.75);
+        Aluno aluno2 = new Aluno("Warley02", 20, 60, 1.60);
 
         System.out.println(aluno1.getNome() + " é menor de idade? " + aluno1.isMenorIdade());
         System.out.println(aluno2.getNome() + " é menor de idade? " + aluno2.isMenorIdade());
